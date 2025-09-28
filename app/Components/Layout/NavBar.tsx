@@ -69,11 +69,11 @@ const Navbar: React.FC = () => {
   return (
     <header className="fixed top-0 z-50 w-full">
       {/* Announcement Bar (optional) */}
-      <div className="flex justify-center items-center py-2 bg-[#171F2D] text-white text-sm max-sm:py-5 max-sm:px-3">
-        <p className="px-4 text-white/85 font-light text-[13px] max-sm:text-xs max-sm:px-2">
+      <div className="flex justify-center items-center py-2 bg-[#171F2D] text-white text-sm max-sm:py-3 max-sm:px-3 ">
+        <p className="px-4 text-white/85 font-light text-[13px] max-sm:text-xs max-sm:px-2 max-sm:text-[10px] ">
           {navigationItems.announcementBar.text}
         </p>
-        <Link href={navigationItems.announcementBar.linkPath} className="flex items-center gap-2">
+        <Link href={navigationItems.announcementBar.linkPath} className="flex items-center gap-2 max-sm:hidden">
           <span className="font-medium tracking-wide max-sm:text-xs underline underline-offset-3 text-[13px]">
             {navigationItems.announcementBar.linkText}
           </span>
@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
       {/* Navigation Bar */}
       <div className="">
         <div
-          className="flex px-4 py-[4px] items-center justify-between bg-white 
+          className="flex px-4 py-[7px] items-center justify-between bg-white 
            max-sm:px-2 border border-white/40 shadow-sm"
         >
           {/* Logo */}
