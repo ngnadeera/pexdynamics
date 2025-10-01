@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 
 const Hero = () => {
+
+  
   return (
     <div className="mt-10 h-[95vh] max-sm:h-[90vh] relative bg-[url('/assets/Homepage/bg-image.png')] max-sm:bg-[url('/assets/Homepage/bg-mobile.png')] bg-cover bg-center">
 
