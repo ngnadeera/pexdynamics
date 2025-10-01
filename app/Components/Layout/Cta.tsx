@@ -6,7 +6,7 @@ const Cta = () => {
   return (
     <div className='my-10 px-20  z-20 max-2md:px-10 max-sm:px-2'>
 
-        <div className='relative w-full z-10 py-20 bg-[url("/assets/Homepage/Cta/cta-bg.jpg")] bg-cover bg-center  flex flex-col justify-center items-center rounded-[35px]'>
+        <div className='relative w-full z-10 py-20 bg-[url("assets/Homepage/Cta/cta-bg.jpg")] bg-cover bg-center  flex flex-col justify-center items-center rounded-[35px]'>
 
         <div className='absolute inset-0 rounded-[35px] bg-gradient-to-r from-[#020022] to-[#060136] mix-blend-hard-light'></div>
 
