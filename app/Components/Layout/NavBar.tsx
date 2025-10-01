@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 // ---------------------------------------------
 const navigationItems = {
   announcementBar: {
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    text: "Kickstart your project with PEXDynamics — fast, reliable, and industry-grade solutions",
     linkText: "Learn more",
     linkPath: "/shipping"
   },
@@ -38,7 +38,7 @@ const navigationItems = {
     //   ]
     // }
   ]
-} as const;
+};
 
 // ---------------------------------------------
 // Types
