@@ -5,7 +5,7 @@ const Hero = () => {
 
   
   return (
-    <div className="mt-10 h-[95vh] max-sm:h-[90vh] relative bg-[url('/assets/Homepage/bg-image.png')] max-sm:bg-[url('/assets/Homepage/bg-mobile.png')] bg-cover bg-center">
+    <div className="mt-10 h-[95vh] max-sm:h-[90vh] relative bg-[url('assets/Homepage/bg-image.png')] max-sm:bg-[url('/assets/Homepage/bg-mobile.png')] bg-cover bg-center">
 
        <div className='absolute inset-0 w-full h-full bg-[#0729608e] mix-blend-hard-light opacity-60 z-20 '></div>
 

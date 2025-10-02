@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
           <Link href="/" aria-label="Go to homepage" className="shrink-0 pl-10">
             <Image
               className="h-auto w-38 max-sm:w-28"
-              src="/assets/logos/primary_logo.png"
+              src="assets/logos/primary_logo.png"
               alt="paraqum-primary-logo"
               width={158}
               height={50}
