@@ -15,14 +15,18 @@ const Section1 = () => {
                         <div className='flex flex-col px-7 py-5'><span className='text-[#ED1F24] font-bold'>3D</span> PRINTING</div>
                     </div>
 
-                     <div className="relative w-1/2 h-[32vh] max-sm:h-[27vh] z-10 bg-red-500 rounded-3xl bg-[url('/assets/Homepage/Section1/section1-img1.png')] bg-center bg-cover">
+                     <div
+                     style={{ backgroundImage: "url(assets/Homepage/Section1/section1-img1.png)" }}
+                     className="relative w-1/2 h-[32vh] max-sm:h-[27vh] z-10 bg-red-500 rounded-3xl  bg-center bg-cover">
                         <div className='absolute inset-0 w-full h-full bg-[#0A234E] mix-blend-screen opacity-73 z-20 rounded-3xl'></div>
                     </div>
 
                 </div>
 
 
-                <div className="relative w-full bg-[url('/assets/Homepage/Section1/section1-img2.png')] bg-center bg-cover h-[23vh] max-sm:h-[20vh] rounded-2xl">
+                <div
+                style={{ backgroundImage: "url(assets/Homepage/Section1/section1-img2.png)" }}
+                className="relative w-full bg-center bg-cover h-[23vh] max-sm:h-[20vh] rounded-2xl">
                                             <div className='absolute inset-0 w-full h-full bg-[#0A234E] mix-blend-screen opacity-73 z-20 rounded-2xl'></div>
                 </div>
 
@@ -38,7 +42,7 @@ const Section1 = () => {
             <div className='flex items-center gap-3 text-[#212121] font-semibold w-fit px-5 py-2 shadow-xl/20 rounded-2xl'>
                 
                <p className='text-[14px]'>Explore 3D Printing</p>
-               <Image src={"/assets/Homepage/Section1/play-dark.png"} alt='navigate' width={20} height={20}></Image>
+               <Image src={"assets/Homepage/Section1/play-dark.png"} alt='navigate' width={20} height={20}></Image>
                 
                 </div>
         </div>

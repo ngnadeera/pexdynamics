@@ -17,16 +17,16 @@ const Process = () => {
 
 
 <div className='relative'>
-            <Image className="" src={"/assets/Homepage/Process/process.png"} height={1080} width={1080} alt='process' />
-            <Image className='absolute top-0 mt-[9.5%] ml-[51.8%] max-sm:w-[13] max-sm:mt-[8.9%] max-sm:ml-[51.3%]' src={"/assets/Homepage/Process/check.png"} height={25} width={25} alt='process' ></Image>
-            <Image className='absolute top-0 mt-[28.2%] ml-[14.5%] max-sm:w-[13] max-sm:mt-[28%] max-sm:ml-[14.2%]' src={"/assets/Homepage/Process/cloud-computing.png"} height={27} width={27} alt='process' ></Image>
-            <Image  className='absolute right-0 top-0 mt-[15.3%] mr-[11.2%] max-sm:w-[13] max-sm:mr-[10.8%]' src={"/assets/Homepage/Process/fast-delivery.png"} height={29} width={29} alt='process' ></Image>
+            <Image className="" src={"assets/Homepage/Process/process.png"} height={1080} width={1080} alt='process' />
+            <Image className='absolute top-0 mt-[9.5%] ml-[51.8%] max-sm:w-[13] max-sm:mt-[8.9%] max-sm:ml-[51.3%]' src={"assets/Homepage/Process/check.png"} height={25} width={25} alt='process' ></Image>
+            <Image className='absolute top-0 mt-[28.2%] ml-[14.5%] max-sm:w-[13] max-sm:mt-[28%] max-sm:ml-[14.2%]' src={"assets/Homepage/Process/cloud-computing.png"} height={27} width={27} alt='process' ></Image>
+            <Image  className='absolute right-0 top-0 mt-[15.3%] mr-[11.2%] max-sm:w-[13] max-sm:mr-[10.8%]' src={"assets/Homepage/Process/fast-delivery.png"} height={29} width={29} alt='process' ></Image>
 
 
             <div className='absolute top-10 max-md:top-0'>
               
                 
-                      <Image  className='absolute right-0 mr-[10%] -mt-[8%] max-md:w-[150] max-md:mr-28 max-sm:w-[80] max-sm:mr-39' src={"/assets/Homepage/Process/1.png"} height={200} width={200} alt='process' ></Image>
+                      <Image  className='absolute right-0 mr-[10%] -mt-[8%] max-md:w-[150] max-md:mr-28 max-sm:w-[80] max-sm:mr-39' src={"assets/Homepage/Process/1.png"} height={200} width={200} alt='process' ></Image>
 
                       <div className='mt-[30%] max-md:mt-[25%] max-md:ml-[5%] max-sm:mt-[10%]'>
                 <h1 className='text-[18px] text-black font-semibold max-sm:text-[12px]'> Upload Your Design </h1>
@@ -44,7 +44,7 @@ const Process = () => {
             <div className='absolute flex  top-0 right-0 -mt-[8%] max-2md:mr-[0] '>
               
                 
-                      <Image  className='absolute right-0 max-md:w-[150]   -mt-[7%] max-sm:-mt-[10%] max-sm:w-[80]' src={"/assets/Homepage/Process/3.png"} height={200} width={200} alt='process' ></Image>
+                      <Image  className='absolute right-0 max-md:w-[150]   -mt-[7%] max-sm:-mt-[10%] max-sm:w-[80]' src={"assets/Homepage/Process/3.png"} height={200} width={200} alt='process' ></Image>
 
                       <div className='mt-[25%] ml-[40%] max-sm:mt-[6%] max-sm:ml-[60%]'>
                 <h1 className='text-[18px] text-black font-semibold max-sm:text-[12px]'> Build & Deliver </h1>
@@ -62,7 +62,7 @@ const Process = () => {
             <div className='absolute top-0 right-0 mt-[23%] mr-[20%]'>
               
                 
-                      <Image  className='absolute right-0 mr-[20%] -mt-[7%] max-md:w-[150] max-sm:w-[80] max-sm:mr-[22%]' src={"/assets/Homepage/Process/2.png"} height={200} width={200} alt='process' ></Image>
+                      <Image  className='absolute right-0 mr-[20%] -mt-[7%] max-md:w-[150] max-sm:w-[80] max-sm:mr-[22%]' src={"assets/Homepage/Process/2.png"} height={200} width={200} alt='process' ></Image>
 
                       <div className='mt-[25%] ml-[25%] max-sm:ml-[40%]'>
                 <h1 className='text-[18px] text-black font-semibold max-sm:text-[12px]'> Review & Confirmation </h1>

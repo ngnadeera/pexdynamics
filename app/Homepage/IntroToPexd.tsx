@@ -24,7 +24,10 @@ const IntroToPexd = () => {
 
             <div className='flex max-sm:flex-col w-full px-35 max-sm:px-2 gap-7 mt-20 max-sm:mt-10 max-2md:px-15 max-2md:gap-3 max-md:px-5 max-md:gap-2'>
 
-                <div className="flex flex-col justify-between py-7 px-10 w-2/4 max-sm:w-full bg-[url('/assets/Homepage/IntroSection/intro-bg1.png')] bg-cover bg-center rounded-4xl h-[38vh] max-sm:h-[30vh]">
+                <div 
+                style={{ backgroundImage: "url(assets/Homepage/IntroSection/intro-bg1.png)" }}
+                
+                className="flex flex-col justify-between py-7 px-10 w-2/4 max-sm:w-full  bg-cover bg-center rounded-4xl h-[38vh] max-sm:h-[30vh]">
                 <h1 className='text-[#001a47d3] text-[22px] font-semibold max-sm:text-[20px] max-sm:text-[18px]'>Design Without Limits</h1>
                 <p className='text-[#001a47ba] text-[13px] font-medium w-[65%] max-sm:w-full'>Access powerful 3D printing and PCB design tools that are built to handle everything from idea to reality.</p>
                 </div>

@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
   return (
     
-    <div className='w-full  bg-white --bg-[url("/assets/Homepage/Footer/footer-bg.png")] bg-cover bg-center mt-30 max-sm:mt-10'>
+    <div className='w-full  bg-white  bg-cover bg-center mt-30 max-sm:mt-10'>
                      <hr className=' border-t border-[#040a3c1f] w-full mt-10' />
 
 
@@ -13,7 +13,7 @@ const Footer = () => {
 
 <div className='flex flex-col w-full bg-white z-30 mt-15 justify-start  items-start mb-15 px-50 max-2md:px-20  max-md:px-5 '>
 
-    <Image className='mb-7' src={"/assets/logos/primary_logo.png"} alt='footer-top' width={130} height={130}></Image>
+    <Image className='mb-7' src={"assets/logos/primary_logo.png"} alt='footer-top' width={130} height={130}></Image>
     <p className='text-[12px] mb-7 text-black/80 '>© 2025 PEXDynamics. All rights reserved. PEXDynamics is dedicated to empowering innovators, engineers, and businesses worldwide with professional 3D printing and PCB design solutions. From rapid prototyping to production-ready designs, we provide the tools, expertise, and support you need to turn ideas into reality.</p>
 
 
@@ -34,8 +34,8 @@ const Footer = () => {
             </div>
 
             <div className='flex z-20 gap-10'>
-                <Image src={"/assets/Homepage/Footer/facebook.svg"} alt='logo' width={26} height={10}></Image>
-                <Image src={"/assets/Homepage/Footer/whatsapp.svg"} alt='logo' width={25} height={12}></Image>
+                <Image src={"assets/Homepage/Footer/facebook.svg"} alt='logo' width={26} height={10}></Image>
+                <Image src={"assets/Homepage/Footer/whatsapp.svg"} alt='logo' width={25} height={12}></Image>
                 <Image src={"assets/Homepage/Footer/youtube.svg"} alt='logo' width={35} height={20}></Image>
 
             </div>
