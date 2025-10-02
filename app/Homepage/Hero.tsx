@@ -12,7 +12,7 @@ const Hero = () => {
       <div
     className="absolute inset-0 bg-cover bg-center hidden sm:block"
     style={{
-      backgroundImage: "url(/pexdynamics/assets/Homepage/bg-image.png)",
+      backgroundImage: "url(assets/Homepage/bg-image.png)",
     }}
   />
 
@@ -20,7 +20,7 @@ const Hero = () => {
   <div
     className="absolute inset-0 bg-cover bg-center sm:hidden"
     style={{
-      backgroundImage: "url(/pexdynamics/assets/Homepage/bg-mobile.png)",
+      backgroundImage: "url(assets/Homepage/bg-mobile.png)",
     }}
   />
 
