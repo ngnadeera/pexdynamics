@@ -6,16 +6,23 @@ const Hero = () => {
   
   return (
     <div 
-    style={{ backgroundImage: "url(assets/Homepage/bg-image.png)" }}
+    // style={{ backgroundImage: "url(assets/Homepage/bg-image.png)" }}
     
-    className="mt-10 h-[95vh] max-sm:h-[90vh] relative   bg-cover bg-center">
-      <style jsx>{`
-    @media (max-width: 640px) {
-      div {
-        background-image: url(assets/Homepage/bg-mobile.png);
-      }
-    }
-  `}</style>
+    className="mt-10 h-[95vh] max-sm:h-[90vh] relative  max-sm:bg-[url('/assets/Homepage/bg-mobile.png')] bg-cover bg-center">
+      <div
+    className="absolute inset-0 bg-cover bg-center hidden sm:block"
+    style={{
+      backgroundImage: "url(/pexdynamics/assets/Homepage/bg-image.png)",
+    }}
+  />
+
+  {/* Mobile background */}
+  <div
+    className="absolute inset-0 bg-cover bg-center sm:hidden"
+    style={{
+      backgroundImage: "url(/pexdynamics/assets/Homepage/bg-mobile.png)",
+    }}
+  />
 
        <div className='absolute inset-0 w-full h-full bg-[#0729608e] mix-blend-hard-light opacity-60 z-20 '></div>
 
