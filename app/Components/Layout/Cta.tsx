@@ -26,14 +26,14 @@ const Cta = () => {
 <div className='w-full flex flex-col justify-center items-center z-20'>
         <h1 className='font-semibold text-[28px] mb-10 max-sm:text-[18px] max-sm:text-center'>Ready to bring your <span className='font-bold text-[#FF0000]'>ideas to life?</span></h1>
         <p className='text-center text-[13px] mb-5 w-[45%] max-md:w-[70%] max-sm:w-[90%] max-sm:text-[11px]'>Whether you’re designing your first prototype or preparing a production run, PEXDynamics gives you the tools, expertise, and support to make it happen. Upload your design today and let’s start building something extraordinary together.</p>
-        <Image className='mb-10' src={"/assets/Homepage/Cta/facegroup.png"} alt='arrow' width={150} height={150}></Image>
+        <Image className='mb-10' src={"assets/Homepage/Cta/facegroup.png"} alt='arrow' width={150} height={150}></Image>
         
         
         <div className='flex justify-center items-center w-full'>
 <div className='flex'>
 
      <p className='underline underline-offset-6 max-sm:text-[12px]'>Get Started with Your Project !</p>
-     <Image className='ml-3' src={"/assets/Homepage/Cta/arrow.svg"} alt='arrow' width={30} height={10}></Image>
+     <Image className='ml-3' src={"assets/Homepage/Cta/arrow.svg"} alt='arrow' width={30} height={10}></Image>
 
 </div>
 
