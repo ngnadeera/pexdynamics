@@ -45,7 +45,6 @@ jobs:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
-      # ✅ Re-enable: lets Pages/Next.js cooperate nicely
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
@@ -62,12 +61,9 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
+      # This will create ./out because output: "export" is set
       - name: Build
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-
-      # ✅ NEW: actually create ./out for static hosting
-      - name: Export static site
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
