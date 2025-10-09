@@ -21,10 +21,10 @@ const navigationItems = {
   },
   mainLinks: [
     { name: "HOME", path: "/", hasSubmenu: false },
-    { name: "3D PRINTING", path: "/3d-printing", hasSubmenu: false },
-    { name: "PCB DESIGN", path: "/pcb-design", hasSubmenu: false },
-    { name: "CONNECT", path: "/connect", hasSubmenu: false },
-    { name: "ABOUT", path: "/about", hasSubmenu: false }
+    { name: "3D PRINTING", path: "/underconstruction", hasSubmenu: false },
+    { name: "PCB DESIGN", path: "/underconstruction", hasSubmenu: false },
+    { name: "CONNECT", path: "/underconstruction", hasSubmenu: false },
+    { name: "ABOUT", path: "/underconstruction", hasSubmenu: false }
 
     // Example (keep for future):
     // {
@@ -73,7 +73,9 @@ const Navbar: React.FC = () => {
         <p className="px-4 text-white/85 font-light text-[13px] max-sm:text-xs max-sm:px-2 max-sm:text-[10px] ">
           {navigationItems.announcementBar.text}
         </p>
-        <Link href={navigationItems.announcementBar.linkPath} className="flex items-center gap-2 max-sm:hidden">
+        <Link href="https://wa.me/+94789477961" 
+    target="_blank"
+    rel="noopener noreferrer" className="flex items-center gap-2 max-sm:hidden">
           <span className="font-medium tracking-wide max-sm:text-xs underline underline-offset-3 text-[13px]">
             {navigationItems.announcementBar.linkText}
           </span>

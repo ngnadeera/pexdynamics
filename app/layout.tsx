@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Layout/NavBar";
-import Footer from "./Components/Layout/Footer";
-import Cta from "./Components/Layout/Cta";
+
+
 import Whatsapp from "./Components/Layout/Whatsapp";
 
 const geistSans = Geist({
@@ -39,9 +39,9 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
-        <Cta/>
+    
         <Whatsapp/>
-        <Footer/>
+        
       </body>
     </html>
   );

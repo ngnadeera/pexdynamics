@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Hero = () => {
 
@@ -32,14 +33,19 @@ const Hero = () => {
         <div className='w-1/2 flex z-30  flex-col max-2md:w-full '>
         <h1 className='text-[40px] max-2md:text-[35px] text-white font-medium leading-13 max-sm:text-3xl max-sm:leading-10'>Bring Your Ideas To <br/> Life In <span className="font-['Inter'] font-bold text-[#ED1F24]">3D</span></h1>
         <p className='text-white/85 font-light text-[15px] py-5 pb-7 max-sm:py-4 max-sm:text-[12px]'>From concept to final product, our industry-grade 3D printing ensures precision, speed, and professional quality.</p>
-        <div className='flex justify-center align-center w-fit gap-4 text-[14px] bg-[#F5F4F4] rounded-2xl p-2 px-4 cursor-pointer max-sm:text-[12px]'><p className="text-[#3F3F3F] font-['Inter'] font-semibold">Explore 3D Printing</p> <Image src={"assets/Homepage/Icons/navigate-play.svg"} alt='navigate' width={20} height={20}></Image> </div>
+        <Link href="https://wa.me/+94789477961" 
+    target="_blank"
+    rel="noopener noreferrer"
+     className='flex justify-center align-center w-fit gap-4 text-[14px] bg-[#F5F4F4] rounded-2xl p-2 px-4 cursor-pointer max-sm:text-[12px]'><p className="text-[#3F3F3F] font-['Inter'] font-semibold">Explore 3D Printing</p> <Image src={"assets/Homepage/Icons/navigate-play.svg"} alt='navigate' width={20} height={20}></Image> </Link>
         </div>
 
 
         <div className='w-1/2 flex flex-col z-30  max-2md:w-full'>
         <h1 className='text-[40px] text-white font-medium leading-13 max-2md:text-[35px] max-sm:text-3xl max-sm:leading-10'>Transform Circuits <br/> Into Real <span className="font-['Inter'] font-bold text-[#ED1F24]">PCB</span></h1>
         <p className='text-white/85 font-light text-[15px] py-5 pb-7 max-sm:py-4 max-sm:text-[12px]'>Design, simulate, and manufacture PCBs with tools built for innovation and accuracy.</p>
-        <div className='flex justify-center align-center w-fit gap-4 text-[14px] bg-[#F5F4F4] rounded-2xl p-2 px-4 cursor-pointer max-sm:text-[12px]'><p className="text-[#3F3F3F] font-['Inter'] font-semibold">Explore PCB Design </p> <Image src={"assets/Homepage/Icons/navigate-play.svg"} alt='navigate' width={20} height={20}></Image></div>
+        <Link href="https://wa.me/+94789477961" 
+    target="_blank"
+    rel="noopener noreferrer" className='flex justify-center align-center w-fit gap-4 text-[14px] bg-[#F5F4F4] rounded-2xl p-2 px-4 cursor-pointer max-sm:text-[12px]'><p className="text-[#3F3F3F] font-['Inter'] font-semibold">Explore PCB Design </p> <Image src={"assets/Homepage/Icons/navigate-play.svg"} alt='navigate' width={20} height={20}></Image></Link>
         </div>
 
       </div>

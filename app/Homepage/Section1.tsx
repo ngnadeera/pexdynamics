@@ -1,5 +1,7 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Section1 = () => {
   return (
@@ -39,12 +41,14 @@ const Section1 = () => {
             <p className='text-[14px] font-medium text-[#8C8E8F] max-sm:text-[11px]'>At PEXDynamics, we provide industry-grade 3D printing solutions that empower creators, engineers, and businesses to turn their ideas into reality. From rapid prototyping to final production, we deliver precision, speed, and creativity. Our mission is to make 3D printing accessible, reliable, and professional, helping you build the products of tomorrow, today.</p>
            
            
-            <div className='flex items-center gap-3 text-[#212121] font-semibold w-fit px-5 py-2 shadow-xl/20 rounded-2xl'>
+            <Link href="https://wa.me/+94789477961" 
+    target="_blank"
+    rel="noopener noreferrer" className='flex items-center gap-3 text-[#212121] font-semibold w-fit px-5 py-2 shadow-xl/20 rounded-2xl'>
                 
-               <p className='text-[14px]'>Explore 3D Printing</p>
+               <p  className='text-[14px]'>Explore 3D Printing</p>
                <Image src={"assets/Homepage/Section1/play-dark.png"} alt='navigate' width={20} height={20}></Image>
                 
-                </div>
+                </Link>
         </div>
 
         </div>

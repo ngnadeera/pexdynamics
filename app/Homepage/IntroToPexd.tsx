@@ -1,3 +1,5 @@
+"use client"
+import Link from 'next/link'
 import React from 'react'
 
 const IntroToPexd = () => {
@@ -12,7 +14,9 @@ const IntroToPexd = () => {
                 
                 <h1 className='text-[35px] text-[#001B4A] font-semibold max-md:text-[25px] max-sm:text-[20px]'>WHAT IS PEXDYNAMICS ?</h1>
 
-                <div className='py-2 px-8 mt-3 max-sm:mt-2 bg-[#001A47] rounded-2xl w-fit cursor-pointer font-normal text-[13px] max-sm:text-[11px]'>Explore now</div> 
+                <Link href="https://wa.me/+94789477961" 
+    target="_blank"
+    rel="noopener noreferrer" className='py-2 px-8 mt-3 max-sm:mt-2 bg-[#001A47] rounded-2xl w-fit cursor-pointer font-normal text-[13px] max-sm:text-[11px]'>Explore now</Link> 
                 
                 </div>
 

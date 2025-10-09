@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Section2 = () => {
   return (
@@ -16,12 +17,14 @@ const Section2 = () => {
             <p className='text-[14px] font-medium text-[#8C8E8F] max-sm:text-[11px]'>At PEXDynamics, we offer professional PCB design solutions that help innovators and businesses bring electronics to life. From schematic capture to final board layouts, our experts ensure precision, reliability, and manufacturability at every step. Whether you need a prototype or a production-ready board, our PCB services make the process seamless and efficient.</p>
            
            
-            <div className='flex items-center gap-3 text-[#212121] font-semibold w-fit px-5 py-2 shadow-xl/20 rounded-2xl'>
+            <Link href="https://wa.me/+94789477961" 
+    target="_blank"
+    rel="noopener noreferrer" className='flex items-center gap-3 text-[#212121] font-semibold w-fit px-5 py-2 shadow-xl/20 rounded-2xl'>
                 
                <p className='text-[14px]'>Explore PCB Design</p>
                <Image src={"assets/Homepage/Section1/play-dark.png"} alt='navigate' width={20} height={20}></Image>
                 
-                </div>
+                </Link>
         </div>
 
 

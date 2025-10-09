@@ -1,5 +1,6 @@
 "use client";
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 
 const Cta = () => {
@@ -34,12 +35,14 @@ const Cta = () => {
         
         
         <div className='flex justify-center items-center w-full'>
-<div className='flex'>
+<Link href="https://wa.me/+94789477961" 
+    target="_blank"
+    rel="noopener noreferrer" className='flex'>
 
      <p className='underline underline-offset-6 max-sm:text-[12px]'>Get Started with Your Project !</p>
      <Image className='ml-3' src={"assets/Homepage/Cta/arrow.svg"} alt='arrow' width={30} height={10}></Image>
 
-</div>
+</Link>
 
 </div>
            
