@@ -25,7 +25,7 @@ const Section2 = () => {
                <Image src={"assets/Homepage/Section1/play-dark.png"} alt='navigate' width={20} height={20}></Image>
                 
                 </Link>
-        </div>
+        </div>  
 
 
 
