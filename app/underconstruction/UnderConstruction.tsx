@@ -11,7 +11,7 @@ const UnderConstruction = () => {
 
         <div className='flex flex-col justify-center items-center mt-4 z-20'>
 
-        <h1 className='text-2xl font-bold text-center mt-4 text-[#2B2452] z-20 max-sm:text-2xl'>age Under Construction</h1>
+        <h1 className='text-2xl font-bold text-center mt-4 text-[#2B2452] z-20 max-sm:text-2xl'>Page Under Construction</h1>
         <p className='text-center mt-2 text-[#2F3263] text-xs max-sm:px-5'>Check back soon to see what we’ve been building behind the scenes.</p>
 
         <p className='text-center mt-7 text-[12px] text-[#2f326395] max-sm:text-[10px]'>© 2025 PEXDynamics. All rights reserved.</p>
